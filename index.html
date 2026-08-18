@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VeinX — Find Blood. Connect with Donors. Save Lives.</title>
+    <meta
+      name="description"
+      content="VeinX helps you discover blood donors and blood listings near you. Find blood faster, connect with donors and become part of a community that helps save lives."
+    />
+    <meta
+      name="keywords"
+      content="VeinX, blood donation, blood donors, blood marketplace, donor discovery, local blood search"
+    />
+    <meta property="og:title" content="VeinX — Find Blood. Connect with Donors. Save Lives." />
+    <meta
+      property="og:description"
+      content="VeinX helps you discover blood donors and blood listings near you. Find blood faster, connect with donors and become part of a community that helps save lives."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="Images/splash screen.jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="Images/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="VeinX home">
+          <img src="Images/logo.png" alt="VeinX logo" class="brand__logo" />
+          <span class="brand__text">VeinX</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" id="navMenu">
+          <ul class="nav-menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a
+            class="btn btn-primary nav-cta"
+            href="https://play.google.com/store/apps/details?id=com.veinx.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download App
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="home">
+        <div class="container hero__grid">
+          <div class="hero__content reveal">
+            <span class="eyebrow">Connecting People. Saving Lives.</span>
+            <h1>Find Blood. Connect with Donors. Save Lives.</h1>
+            <p>
+              VeinX makes it easier to discover blood donors and blood listings near you. Connect with people who can help when every second matters.
+            </p>
+
+            <div class="hero__actions">
+              <a
+                class="btn btn-primary"
+                href="https://play.google.com/store/apps/details?id=com.veinx.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download App
+              </a>
+              <a class="btn btn-secondary" href="#features">Explore Features</a>
+            </div>
+
+            <div class="hero__meta" aria-label="VeinX trust highlights">
+              <div>
+                <strong>Location-based</strong>
+                <span>Donor discovery</span>
+              </div>
+              <div>
+                <strong>Fast help</strong>
+                <span>When it matters</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal" aria-label="VeinX app preview">
+            <div class="hero__backdrop" aria-hidden="true"></div>
+
+            <div class="phone-mockup">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <div class="app-header">
+                  <span class="app-dot app-dot--red"></span>
+                  <span class="app-dot"></span>
+                  <span class="app-dot"></span>
+                </div>
+
+                <div class="app-topbar">
+                  <div>
+                    <small>Good morning</small>
+                    <strong>VeinX</strong>
+                  </div>
+                  <div class="avatar avatar--small">V</div>
+                </div>
+
+                <div class="app-card highlight-card">
+                  <div class="blood-drop"></div>
+                  <div>
+                    <span>Urgent Request</span>
+                    <strong>O+ Needed</strong>
+                  </div>
+                  <button type="button" aria-label="Request blood">View</button>
+                </div>
+
+                <div class="mini-grid">
+                  <div class="mini-box">
+                    <small>Available</small>
+                    <strong>12</strong>
+                  </div>
+                  <div class="mini-box">
+                    <small>Nearby</small>
+                    <strong>3 km</strong>
+                  </div>
+                </div>
+
+                <div class="donor-list">
+                  <div class="donor-item">
+                    <div class="avatar avatar--male">A</div>
+                    <div>
+                      <strong>Ayesha</strong>
+                      <small>O+</small>
+                    </div>
+                    <span class="status-dot"></span>
+                  </div>
+                  <div class="donor-item">
+                    <div class="avatar avatar--female">M</div>
+                    <div>
+                      <strong>Mateen</strong>
+                      <small>A-</small>
+                    </div>
+                    <span class="status-dot status-dot--idle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-pill pill-one">Blood Group O+</div>
+            <div class="floating-pill pill-two">Donor Available</div>
+            <div class="floating-pill pill-three">Nearby Donor</div>
+            <div class="floating-pill pill-four">Blood Request</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats section--compact" aria-label="VeinX highlights">
+        <div class="container stats__grid">
+          <article class="stat reveal">
+            <strong class="stat__value" data-target="24">0</strong>
+            <span class="stat__unit">/7</span>
+            <p>Blood Discovery</p>
+          </article>
+          <article class="stat reveal">
+            <strong class="stat__value" data-target="8">0</strong>
+            <p>Multiple Blood Groups</p>
+          </article>
+          <article class="stat reveal">
+            <strong class="stat__value" data-target="20">0</strong>
+            <span class="stat__unit">KM</span>
+            <p>Nearby Search</p>
+          </article>
+          <article class="stat reveal">
+            <strong class="stat__value" data-target="1">0</strong>
+            <span class="stat__unit">Goal</span>
+            <p>Save Lives</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container about__grid">
+          <div class="about__content reveal">
+            <span class="section-tag">About VeinX</span>
+            <h2>What is VeinX?</h2>
+            <p>
+              VeinX is a mobile platform designed to simplify blood discovery and connect people with available blood donors. Instead of depending only on traditional methods of searching for blood, VeinX provides a convenient digital platform where users can discover blood listings, find donors and connect with people nearby.
+            </p>
+
+            <ul class="check-list" aria-label="VeinX benefits list">
+              <li>Easy donor discovery</li>
+              <li>Location-based search</li>
+              <li>Blood group filtering</li>
+              <li>Availability information</li>
+              <li>Simple communication</li>
+              <li>Community-focused platform</li>
+            </ul>
+          </div>
+
+          <div class="about__visual reveal">
+            <div class="about-card">
+              <img src="Images/splash screen.jpeg" alt="VeinX mobile application interface showing donor discovery" />
+            </div>
+            <div class="blood-drop blood-drop--large" aria-hidden="true"></div>
+            <div class="blood-drop blood-drop--small" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features" id="features">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-tag">Features</span>
+            <h2>Everything You Need to Find Blood Faster</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <div class="feature-icon" aria-hidden="true">🔍</div>
+              <h3>Donor Discovery</h3>
+              <p>Allow users to discover available blood donors based on blood group and location.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-icon" aria-hidden="true">📍</div>
+              <h3>Nearby Search</h3>
+              <p>Users can search for donors near their location within a convenient radius.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-icon" aria-hidden="true">🩸</div>
+              <h3>Blood Listings</h3>
+              <p>Users can view available blood listings and relevant information in one place.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-icon" aria-hidden="true">🧬</div>
+              <h3>Blood Group Filtering</h3>
+              <p>Quickly filter donors and listings according to blood group.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-icon" aria-hidden="true">✅</div>
+              <h3>Availability Status</h3>
+              <p>Donors can indicate whether they are currently available for blood donation.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-icon" aria-hidden="true">🤝</div>
+              <h3>Community Connection</h3>
+              <p>VeinX helps connect people who need blood with people who are willing to help.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section how-it-works" id="how-it-works">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-tag">How it works</span>
+            <h2>How VeinX Works</h2>
+          </div>
+
+          <div class="steps">
+            <div class="step reveal">
+              <div class="step__number">01</div>
+              <div class="step__content">
+                <h3>Create Your Profile</h3>
+                <p>Register and provide your basic information including blood group and location.</p>
+              </div>
+            </div>
+            <div class="step reveal">
+              <div class="step__number">02</div>
+              <div class="step__content">
+                <h3>Find Blood or Donors</h3>
+                <p>Search for blood listings or discover available donors based on your requirements.</p>
+              </div>
+            </div>
+            <div class="step reveal">
+              <div class="step__number">03</div>
+              <div class="step__content">
+                <h3>Connect &amp; Help</h3>
+                <p>Connect with the relevant person and take action when help is needed.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section showcase" id="showcase">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-tag">App showcase</span>
+            <h2>Experience VeinX on Mobile</h2>
+          </div>
+
+          <div class="showcase-grid">
+            <figure class="showcase-card reveal">
+              <img src="Images/home screen.jpeg" alt="VeinX home screen showing donor dashboard and urgent requests" />
+              <figcaption>Home Screen</figcaption>
+            </figure>
+            <figure class="showcase-card reveal">
+              <img src="Images/notification screen.jpeg" alt="VeinX notification screen showing donor requests" />
+              <figcaption>Notifications</figcaption>
+            </figure>
+            <figure class="showcase-card reveal">
+              <img src="Images/proifle screen.jpeg" alt="VeinX profile screen showing donor details and settings" />
+              <figcaption>Profile Screen</figcaption>
+            </figure>
+            <figure class="showcase-card reveal">
+              <img src="Images/settings screen.jpeg" alt="VeinX settings screen" />
+              <figcaption>Settings</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section why-veinx">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-tag">Why VeinX</span>
+            <h2>Why Choose VeinX?</h2>
+          </div>
+
+          <div class="benefits-grid">
+            <article class="benefit-card reveal">
+              <div class="benefit-icon" aria-hidden="true">⚡</div>
+              <h3>Fast Discovery</h3>
+              <p>Find relevant blood donors and listings without wasting unnecessary time.</p>
+            </article>
+            <article class="benefit-card reveal">
+              <div class="benefit-icon" aria-hidden="true">📍</div>
+              <h3>Location Based</h3>
+              <p>Discover potential donors and listings based on your location.</p>
+            </article>
+            <article class="benefit-card reveal">
+              <div class="benefit-icon" aria-hidden="true">✨</div>
+              <h3>Simple Experience</h3>
+              <p>A clean and easy-to-use interface designed for everyone.</p>
+            </article>
+            <article class="benefit-card reveal">
+              <div class="benefit-icon" aria-hidden="true">🤲</div>
+              <h3>Community Driven</h3>
+              <p>Connect people who need help with people willing to help.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section">
+        <div class="container">
+          <div class="cta__box reveal">
+            <div>
+              <span class="section-tag section-tag--light">Get involved</span>
+              <h2>Be Ready When Someone Needs You</h2>
+              <p>Download VeinX and become part of a community working to make blood discovery easier.</p>
+            </div>
+            <div class="cta__actions">
+              <a
+                class="btn btn-light"
+                href="https://play.google.com/store/apps/details?id=com.veinx.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download VeinX
+              </a>
+              <a class="btn btn-ghost-light" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact__single reveal">
+          <span class="section-tag">Contact</span>
+          <h2>Get In Touch</h2>
+          <p>Have a question, suggestion or feedback about VeinX? We'd love to hear from you.</p>
+
+          <div class="contact-list">
+            <a href="mailto:waqasjanjua.developer@gmail.com">Email: waqasjanjua.developer@gmail.com</a>
+            <a href="https://wa.me/923088895588" target="_blank" rel="noreferrer">WhatsApp: +92 308 8895588</a>
+          </div>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:waqasjanjua.developer@gmail.com">Email Us</a>
+            <a class="btn btn-secondary" href="https://wa.me/923088895588" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq">
+        <div class="container faq__wrap reveal">
+          <div class="section-heading section-heading--center">
+            <span class="section-tag">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+          </div>
+
+          <div class="faq-list">
+            <article class="faq-item is-open">
+              <button class="faq-question" type="button" aria-expanded="true">
+                What is VeinX?
+              </button>
+              <div class="faq-answer">
+                <p>VeinX is a blood marketplace and donor discovery app designed to help people find blood donors and blood listings in a more convenient and timely way.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                How does VeinX help users find blood?
+              </button>
+              <div class="faq-answer">
+                <p>It allows users to search for nearby donors, explore blood listings, filter by blood type and connect with people who can help during urgent situations.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Can I search for donors near me?
+              </button>
+              <div class="faq-answer">
+                <p>Yes. VeinX is built around location-based discovery so users can find suitable donors and listings near their current area.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Can I specify my blood group?
+              </button>
+              <div class="faq-answer">
+                <p>Yes. Users can add blood group information and use filtering to quickly discover donors or listings that match their needs.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Is VeinX available on Android?
+              </button>
+              <div class="faq-answer">
+                <p>VeinX is designed for Android users and can be downloaded via the Google Play Store link available on this website.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                How can I contact VeinX?
+              </button>
+              <div class="faq-answer">
+                <p>You can email us at waqasjanjua.developer@gmail.com or message us on WhatsApp at +92 308 8895588.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Can I become a blood donor through VeinX?
+              </button>
+              <div class="faq-answer">
+                <p>Yes. Users can create a profile, share their blood group and availability, and become part of the community helping others when needed.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <a class="brand brand--footer" href="#home" aria-label="VeinX home">
+            <img src="Images/logo.png" alt="VeinX logo" class="brand__logo" />
+            <span class="brand__text">VeinX</span>
+          </a>
+          <p>Connecting people. Saving lives.</p>
+        </div>
+
+        <div class="footer__links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__contact">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="mailto:waqasjanjua.developer@gmail.com">waqasjanjua.developer@gmail.com</a></li>
+            <li><a href="https://wa.me/923088895588" target="_blank" rel="noreferrer">+92 308 8895588</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <p>© 2026 VeinX. All rights reserved.</p>
+        <p>Made with care for a better connected community.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

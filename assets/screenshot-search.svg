@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1200" role="img" aria-label="VeinX donor search placeholder">
+  <rect width="720" height="1200" fill="#F6F7F9"/>
+  <rect x="30" y="30" width="660" height="90" rx="20" fill="#fff"/>
+  <text x="70" y="84" font-size="28" font-weight="700" fill="#1F2937">Search donors</text>
+  <rect x="40" y="150" width="640" height="90" rx="18" fill="#fff"/>
+  <text x="72" y="205" font-size="22" fill="#6B7280">Search near you</text>
+  <rect x="50" y="275" width="120" height="60" rx="18" fill="#FFE7E7"/>
+  <text x="90" y="315" font-size="22" font-weight="700" fill="#D32F2F">O+</text>
+  <rect x="190" y="275" width="120" height="60" rx="18" fill="#F3F4F6"/>
+  <text x="225" y="315" font-size="22" font-weight="700" fill="#374151">A-</text>
+  <rect x="330" y="275" width="120" height="60" rx="18" fill="#F3F4F6"/>
+  <text x="360" y="315" font-size="22" font-weight="700" fill="#374151">B+</text>
+  <rect x="470" y="275" width="120" height="60" rx="18" fill="#F3F4F6"/>
+  <text x="500" y="315" font-size="22" font-weight="700" fill="#374151">AB+</text>
+  <rect x="40" y="380" width="640" height="180" rx="24" fill="#fff"/>
+  <circle cx="110" cy="445" r="34" fill="#FFE7E7"/>
+  <text x="128" y="451" font-size="24" font-weight="700" fill="#D32F2F">Z</text>
+  <text x="170" y="438" font-size="26" font-weight="700" fill="#1F2937">Zara</text>
+  <text x="170" y="470" font-size="18" fill="#6B7280">O+ · 1.2 km away</text>
+  <circle cx="600" cy="444" r="10" fill="#22C55E"/>
+  <rect x="40" y="590" width="640" height="180" rx="24" fill="#fff"/>
+  <circle cx="110" cy="655" r="34" fill="#E5E7EB"/>
+  <text x="128" y="661" font-size="24" font-weight="700" fill="#6B7280">U</text>
+  <text x="170" y="648" font-size="26" font-weight="700" fill="#1F2937">Usman</text>
+  <text x="170" y="680" font-size="18" fill="#6B7280">A- · 2.3 km away</text>
+  <circle cx="600" cy="649" r="10" fill="#22C55E"/>
+  <rect x="40" y="800" width="640" height="180" rx="24" fill="#fff"/>
+  <circle cx="110" cy="865" r="34" fill="#FFE7E7"/>
+  <text x="128" y="871" font-size="24" font-weight="700" fill="#D32F2F">N</text>
+  <text x="170" y="858" font-size="26" font-weight="700" fill="#1F2937">Nadia</text>
+  <text x="170" y="890" font-size="18" fill="#6B7280">AB+ · 4.8 km away</text>
+  <circle cx="600" cy="859" r="10" fill="#F59E0B"/>
+</svg>
