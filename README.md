@@ -14,13 +14,3 @@ A responsive, healthcare-focused marketing website for the BloodLink blood donor
 ## Notes
 
 The website uses local SVG placeholders in the assets folder so the project works immediately without external image dependencies. Replace the placeholder graphics with product screenshots and brand assets when available.
-
-## Local preview
-
-Open index.html in a browser or run a simple local static server from this folder.
-
-Example:
-
-python -m http.server 8000
-
-Then visit http://localhost:8000/
