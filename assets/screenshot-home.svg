@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1200" role="img" aria-label="VeinX home screen placeholder">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1200" role="img" aria-label="BloodLink home screen placeholder">
   <rect width="720" height="1200" fill="#F6F7F9"/>
   <rect x="30" y="30" width="660" height="90" rx="24" fill="#fff"/>
-  <text x="70" y="82" font-size="30" font-weight="700" fill="#1F2937">VeinX</text>
+  <text x="70" y="82" font-size="30" font-weight="700" fill="#1F2937">BloodLink</text>
   <rect x="40" y="150" width="640" height="120" rx="24" fill="#D32F2F"/>
   <text x="72" y="205" font-size="28" font-weight="700" fill="#fff">Urgent blood request</text>
   <text x="72" y="242" font-size="20" fill="#FDECEC">O+ needed · 3 km away</text>

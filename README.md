@@ -1,6 +1,6 @@
-# VeinX Website
+# BloodLink Website
 
-A responsive, healthcare-focused marketing website for the VeinX blood donor discovery app, built using only HTML5, CSS3 and vanilla JavaScript.
+A responsive, healthcare-focused marketing website for the BloodLink blood donor discovery app, built using only HTML5, CSS3 and vanilla JavaScript.
 
 ## Files
 

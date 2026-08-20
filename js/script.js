@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const statValues = document.querySelectorAll(".stat__value");
   const faqItems = document.querySelectorAll(".faq-item");
   const contactForm = document.getElementById("contactForm");
+  const showcaseCarousel = document.querySelector("[data-carousel]");
 
   if (header) {
     const setHeaderState = () => {
@@ -185,7 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      const subject = encodeURIComponent("VeinX website inquiry");
+      const subject = encodeURIComponent("BloodLink website inquiry");
       const body = encodeURIComponent(
         `Full Name: ${fullName}\nEmail: ${email}\n\nMessage:\n${message}`
       );
@@ -195,5 +196,41 @@ document.addEventListener("DOMContentLoaded", () => {
 
       window.location.href = `mailto:waqasjanjua.developer@gmail.com?subject=${subject}&body=${body}`;
     });
+  }
+
+  if (showcaseCarousel) {
+    const track = showcaseCarousel.querySelector("[data-carousel-track]");
+    const slides = showcaseCarousel.querySelectorAll(".showcase-card");
+    const previousButton = showcaseCarousel.querySelector(".showcase-carousel__button--prev");
+    const nextButton = showcaseCarousel.querySelector(".showcase-carousel__button--next");
+    let activeSlide = Math.min(1, slides.length - 1);
+
+    const updateCarousel = () => {
+      const trackStyle = getComputedStyle(track);
+      const slideGap = parseFloat(trackStyle.columnGap || trackStyle.gap) || 0;
+      const slideStep = slides[0].getBoundingClientRect().width + slideGap;
+      const firstCenteredSlide = 1;
+      const lastCenteredSlide = slides.length - 2;
+
+      track.style.transform = `translateX(-${Math.max(activeSlide - firstCenteredSlide, 0) * slideStep}px)`;
+      slides.forEach((slide, index) => {
+        slide.classList.toggle("is-active", index === activeSlide);
+      });
+      previousButton.disabled = activeSlide === firstCenteredSlide;
+      nextButton.disabled = activeSlide === lastCenteredSlide;
+    };
+
+    previousButton.addEventListener("click", () => {
+      activeSlide = Math.max(activeSlide - 1, 1);
+      updateCarousel();
+    });
+
+    nextButton.addEventListener("click", () => {
+      activeSlide = Math.min(activeSlide + 1, slides.length - 2);
+      updateCarousel();
+    });
+
+    updateCarousel();
+    window.addEventListener("resize", updateCarousel);
   }
 });
